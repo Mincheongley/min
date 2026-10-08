@@ -70,15 +70,64 @@ button {
 
 /* TASK 4: Project Card Grid (selector: .cards) */
 
+.card {
 
+    background: #f8fafe;
+
+    border: 1px solid #fdbff0;
+
+    padding: 12px;
+
+    width: 180px;
+
+}
+
+.card strong,
+
+.card span {
+
+    display: block;
+
+}
+ 
 /* TASK 5: Highlights and Timeline Strips (selectors: .box-a, .box-b) */
 
+.box-a, .box-b {
 
+    height: 200px;
+
+    background: #fafafa;
+
+    border: 2px solid #d17fca9a;
+
+}
+ 
+ 
 /* TASK 6: Recent Activity Feed (selector: .updates) */
 
+.box-a {
 
+    background: #f8fafe;
+
+    padding: 15px;
+
+}
+
+.box-b {
+
+    background: #fff;
+
+    padding: 15px;
+
+}
 /* TASK 7: Footer (selector: footer) */
 
-
+footer {
+   background: #d17fca9a;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   margin-top: 20px;
+}
 /* BONUS: Add exactly one declaration to the .layout rule */
 
